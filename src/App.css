@@ -1,0 +1,95 @@
+.speech-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.speech-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.speech-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.record-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.record-button:hover {
+  background-color: #0056b3;
+}
+
+.record-button.recording {
+  background-color: #dc3545;
+}
+
+.record-button.recording:hover {
+  background-color: #c82333;
+}
+
+.transcript {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px;
+  min-height: 150px;
+  margin-bottom: 15px;
+}
+
+.transcript-empty {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.action-button {
+  padding: 8px 16px;
+  border: 1px solid #dee2e6;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #f8f9fa;
+}
+
+.action-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.status {
+  text-align: center;
+  color: #007bff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  margin-bottom: 15px;
+}
