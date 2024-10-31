@@ -17,7 +17,7 @@ function App() {
         recognition.stop()
       }
     }
-  }, [])
+  }, [recognition])
 
   const startListening = () => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
